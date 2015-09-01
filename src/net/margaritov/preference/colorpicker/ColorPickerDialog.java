@@ -36,6 +36,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ColorPickerDialog 
 	extends 
@@ -105,9 +106,11 @@ public class ColorPickerDialog
 							mColorPicker.setColor(c, true);
 							mHexVal.setTextColor(mHexDefaultTextColor);
 						} catch (IllegalArgumentException e) {
+							Toast.makeText(getContext(), "wrong input", Toast.LENGTH_LONG);
 							mHexVal.setTextColor(Color.RED);
 						}
 					} else {
+						Toast.makeText(getContext(), "something weird happened", Toast.LENGTH_LONG);
 						mHexVal.setTextColor(Color.RED);
 					}
 					return true;

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/hlwu/workspace_L/canvasTest/res/values/array.xml -->
+    <!-- From: file:/C:/Users/chao_wang/AndroidStudioProjects/canvasTest/res/values/array.xml -->
     <eat-comment/>
     <string-array name="paint_spinner">
         <item>blur_paint</item>
         <item>emboss_paint</item>
         <item>normal_paint</item>
     </string-array>
-    <!-- From: file:/home/hlwu/workspace_L/canvasTest/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/chao_wang/AndroidStudioProjects/canvasTest/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/hlwu/workspace_L/canvasTest/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/chao_wang/AndroidStudioProjects/canvasTest/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">canvasTest</string>
     <string name="dialog_color_picker">Color Picker</string>
     <string name="hello_world">Hello world!</string>
     <string name="press_color_to_apply">Press on Color to apply</string>
-    <!-- From: file:/home/hlwu/workspace_L/canvasTest/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/chao_wang/AndroidStudioProjects/canvasTest/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

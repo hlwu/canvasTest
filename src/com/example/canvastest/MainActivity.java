@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     private String mImagePath = null;
     
     private boolean mAlphaSliderEnabled = false;
-    private boolean mHexValueEnabled = false;
+    private boolean mHexValueEnabled = true;
     
     final int SELECT_IMAGE = 1;
     
